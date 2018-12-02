@@ -203,7 +203,7 @@ h3,
   max-width: 650px;
   padding: 30px;
   margin: 0 0 40px;
-  background-image: url(images/greywave.png);
+  background: #ddd;
   border: 1px solid #ddd;
 }
 
@@ -246,6 +246,12 @@ input[type=submit] {
   background: #fff;
   border: 0 none;
 }
+
+  #main-container {
+    background: #fff;
+  }
+
+
 /*portfolio*/
 
 .row li {
@@ -259,6 +265,11 @@ img {
   height: auto;
   max-width: 100%;
   vertical-align: middle;
+}
+
+h3 {
+  background: #3ac0bc;
+  color: #2e4948;
 }
 
 @media screen and (max-width: 980px) {
